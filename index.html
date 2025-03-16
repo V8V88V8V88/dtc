@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Delhi Technical Campus</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo-container">
+      <img src="dtc.png" alt="DTC Logo" class="logo">
+      <div id="headerTitle">
+        <h1>Delhi Technical Campus</h1>
+        <p>Excellence in Education</p>
+      </div>
+    </div>
+
+    <nav>
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#courses" class="nav-link">Courses</a>
+      <a href="#departments" class="nav-link">Departments</a>
+      <a href="#library" class="nav-link">Library</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="right-side">
+      <img src="ipu.png" alt="IPU Logo" class="logo2">
+      <button id="menuToggle">☰</button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div id="mobileMenu">
+    <a href="#home" class="mobile-link">Home</a>
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#courses" class="mobile-link">Courses</a>
+    <a href="#departments" class="mobile-link">Departments</a>
+    <a href="#library" class="mobile-link">Library</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="pattern-overlay"></div>
+    
+    <div class="hero-content">
+      <h1>Delhi Technical Campus</h1>
+      <p>Shaping the future through excellence in education, innovation, and research.</p>
+      <div class="hero-buttons">
+        <a href="#about" class="btn btn-light">Learn More</a>
+        <a href="#courses" class="btn btn-secondary">Explore Courses</a>
+      </div>
+    </div>
+    
+    <div class="scroll-down">
+      <a href="#about">↓</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image reveal-left">
+          <div class="image-bg"></div>
+          <img src="dtc.JPG" alt="Campus" onerror="this.src='https://via.placeholder.com/600x400'">
+        </div>
+        <div class="about-content reveal-right">
+          <h2 class="section-subtitle">About us</h2>
+          <h3 class="section-title">Delhi Technical Campus</h3>
+          <p>Promoted by the founders of Mayoor School, Noida (in collaboration with GC MAYO College, Ajmer), Delhi Technical Campus provides the most sought after programmes affiliated to Guru Gobind Singh Indraprastha University. The institute imparts technical education in the fields of engineering, architecture and management, and maintains a young and vibrant all-round approach to ensure that the Delhi-Tech experience is high quality and most constructive.</p>
+          <div class="stats">
+            <div class="stat-card">
+              <h4>20+</h4>
+              <p>Years of Excellence</p>
+            </div>
+            <div class="stat-card">
+              <h4>500+</h4>
+              <p>Expert Faculty</p>
+            </div>
+            <div class="stat-card">
+              <h4>10k+</h4>
+              <p>Alumni Network</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Courses Section -->
+  <section id="courses" class="courses">
+    <div class="bg-shape-1"></div>
+    <div class="bg-shape-2"></div>
+    
+    <div class="container">
+      <div class="section-header reveal-up">
+        <h2 class="section-subtitle">Our Programs</h2>
+        <h3 class="section-title">Courses Offered</h3>
+        <p>Discover our comprehensive range of undergraduate and postgraduate programs designed to prepare you for a successful career.</p>
+      </div>
+      
+      <div class="courses-grid">
+        <div class="course-card reveal-up" data-delay="0.1">
+          <div class="course-image" style="background-image: url('https://via.placeholder.com/350x200')"></div>
+          <div class="course-content">
+            <h4>B.Tech</h4>
+            <p>Bachelor of Technology program with specializations in various engineering disciplines.</p>
+            <a href="#">
+              Learn More
+              <span>→</span>
+            </a>
+          </div>
+        </div>
+        
+        <div class="course-card reveal-up" data-delay="0.2">
+          <div class="course-image" style="background-image: url('https://via.placeholder.com/350x200')"></div>
+          <div class="course-content">
+            <h4>B.Arch</h4>
+            <p>Bachelor of Architecture program focusing on design, planning, and construction.</p>
+            <a href="#">
+              Learn More
+              <span>→</span>
+            </a>
+          </div>
+        </div>
+        
+        <div class="course-card reveal-up" data-delay="0.3">
+          <div class="course-image" style="background-image: url('https://via.placeholder.com/350x200')"></div>
+          <div class="course-content">
+            <h4>BBA</h4>
+            <p>Bachelor of Business Administration program for future business leaders.</p>
+            <a href="#">
+              Learn More
+              <span>→</span>
+            </a>
+          </div>
+        </div>
+        
+        <div class="course-card reveal-up" data-delay="0.4">
+          <div class="course-image" style="background-image: url('https://via.placeholder.com/350x200')"></div>
+          <div class="course-content">
+            <h4>MBA</h4>
+            <p>Master of Business Administration program with various specializations.</p>
+            <a href="#">
+              Learn More
+              <span>→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Departments Section -->
+  <section id="departments" class="departments">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <h2 class="section-subtitle">Academic Excellence</h2>
+        <h3 class="section-title">Our Departments</h3>
+        <p>Explore our specialized departments led by experienced faculty members dedicated to academic excellence.</p>
+      </div>
+      
+      <div class="departments-grid">
+        <div class="dept-card reveal-left">
+          <div class="dept-icon">
+            <span>💻</span>
+          </div>
+          <div class="dept-content">
+            <h4>Computer Science and Engineering</h4>
+            <p>Offering cutting-edge programs in software development, artificial intelligence, data science, and more.</p>
+            <a href="#">Learn More →</a>
+          </div>
+        </div>
+        
+        <div class="dept-card reveal-right">
+          <div class="dept-icon">
+            <span>🔌</span>
+          </div>
+          <div class="dept-content">
+            <h4>Electronics and Communication</h4>
+            <p>Specializing in electronic systems, communication networks, signal processing, and embedded systems.</p>
+            <a href="#">Learn More →</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="departments-grid">
+        <div class="dept-card reveal-left">
+          <div class="dept-icon">
+            <span>⚙️</span>
+          </div>
+          <div class="dept-content">
+            <h4>Mechanical Engineering</h4>
+            <p>Focusing on design, manufacturing, thermal engineering, and automation technologies.</p>
+            <a href="#">Learn More →</a>
+          </div>
+        </div>
+        
+        <div class="dept-card reveal-right">
+          <div class="dept-icon">
+            <span>🏛️</span>
+          </div>
+          <div class="dept-content">
+            <h4>Architecture</h4>
+            <p>Providing education in architectural design, urban planning, sustainable development, and more.</p>
+            <a href="#">Learn More →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Section -->
+  <section id="library" class="video-section">
+    <div class="pattern-overlay"></div>
+    
+    <div class="container">
+      <div class="section-header reveal-up">
+        <h2 class="section-subtitle">Campus Life</h2>
+        <h3 class="section-title">Explore Our Campus</h3>
+        <p>Take a virtual tour of our state-of-the-art facilities and vibrant campus life.</p>
+      </div>
+      
+      <div class="video-container">
+        <video controls>
+          <source src="vid.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div id="videoOverlay">
+          <div class="play-button">
+            <span>▶</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="audio-container">
+        <h4>Listen to Our Campus Radio</h4>
+        <audio controls>
+          <source src="mp3.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <h2 class="section-subtitle">Get in Touch</h2>
+          <h3 class="section-title">Contact Us</h3>
+          <p>We're here to answer any questions you may have about our programs, admissions, campus facilities, or anything else.</p>
+          
+          <div class="contact-item">
+            <div class="contact-icon">
+              <span>📍</span>
+            </div>
+            <div>
+              <h4>Address</h4>
+              <p>Delhi Technical Campus, Greater Noida, Uttar Pradesh, India</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <div class="contact-icon">
+              <span>📧</span>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <p><a href="mailto:info@dtc.ac.in">info@dtc.ac.in</a></p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <div class="contact-icon">
+              <span>📞</span>
+            </div>
+            <div>
+              <h4>Phone</h4>
+              <p>+91 9876543210</p>
+            </div>
+          </div>
+          
+          <div class="social-links">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+              <a href="#" class="social-icon">f</a>
+              <a href="#" class="social-icon">t</a>
+              <a href="#" class="social-icon">in</a>
+              <a href="#" class="social-icon">ig</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="map-container reveal-right">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.160438019993!2d77.47366847564734!3d28.474714575751385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cebdaaaaaaaab%3A0xef507664000ad02f!2sDelhi%20Technical%20Campus!5e0!3m2!1sen!2sin!4v1738213255273!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <h3>Delhi Technical Campus</h3>
+          <p>Providing quality education and shaping future leaders through innovation, research, and academic excellence.</p>
+          <div class="footer-social">
+            <a href="#" class="footer-social-icon">f</a>
+            <a href="#" class="footer-social-icon">t</a>
+            <a href="#" class="footer-social-icon">in</a>
+            <a href="#" class="footer-social-icon">ig</a>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#departments">Departments</a></li>
+            <li><a href="#library">Library</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Programs</h4>
+          <ul>
+            <li><a href="#">B.Tech</a></li>
+            <li><a href="#">B.Arch</a></li>
+            <li><a href="#">BBA</a></li>
+            <li><a href="#">MBA</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p>Delhi Technical Campus, Greater Noida, Uttar Pradesh, India</p>
+          <p>Email: <a href="mailto:info@dtc.ac.in">info@dtc.ac.in</a></p>
+          <p>Phone: +91 9876543210</p>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© 2025 Delhi Technical Campus. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" id="backToTop">↑</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
